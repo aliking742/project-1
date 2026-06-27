@@ -1,0 +1,632 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html body{
+    width: 100%;
+    height: 100%;
+}
+#ship{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(206, 21, 206);
+}
+#ship h4{
+    font-size: 1.2vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+nav{
+    margin-top: 1px;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+#nav1{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 0.2vw;
+}
+#nav1 h1{
+    font-size: 3vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 400;
+    font-style: italic;
+    color: rgb(186, 21, 186);
+    padding-left: 3vh;
+    cursor: pointer;
+
+}
+#nav1 h2{
+    font-size: 1.6vw;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+#nav2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2vw;
+    font-size: 1.2vw;
+    font-weight: 300;
+    margin-right: 3vw;
+    padding-top: 0.3vh;
+    cursor: pointer;
+    transition: o.3s ease;
+}
+#nav2 h3{
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+#nav2 h3:hover{
+    transform: scale(0.95);
+    text-decoration: underline;
+}
+#nav2 h3:active{
+    text-decoration: underline;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+#section1{
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(224, 239, 239);
+    background-image: url(front.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#sec1-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4.3vw;
+    font-weight: 300;
+    padding-top: 20vh;
+    gap: -1px;
+}
+.sec1-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4.1vw;
+    font-weight: 600;
+    padding-top: 2vh;
+}
+.sec1-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.3vh;
+    padding-top: 2vh;
+}
+.sec1-3-1{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.3vh;
+}
+#sec1-btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    padding-top:2vh ;
+}
+.sec1-btn1{
+    font-size: 1.3vw;
+    padding: 2vh;
+    border-radius: 1.2vw;
+    background-color: rgb(206, 21, 206);
+    cursor: pointer;
+    transition: 0.3s ease;
+    border: 1px solid;
+    border-color: transparent;
+}
+.sec1-btn2{
+    font-size: 1.3vw;
+    padding: 2vh;
+    border-radius: 1.2vw;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border: 2px solid;
+    border-color: black;
+}
+.sec1-btn1:hover{
+    background-color: rgb(0, 0, 0);
+    transform: scale(0.95);
+    color: white;
+}
+.sec1-btn2:hover{
+        transform: scale(0.95);
+        background-color: black;
+        color: white;
+}
+
+#section2{
+    width: 100%;
+    height: 16vh;
+    padding-top: 3vh;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 1vw;
+}
+#section2 h1{
+    font-size: 3.3vw;
+    padding-left: 2%;
+}
+#section2 h2{
+    font-size: 3.3vw;
+    font-weight: 400;
+}
+#section3{
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+#sec3-main{
+    height: 85vh;
+    width: 32%;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    background-image: url(img.sec3.1.avif);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 30vh;
+    cursor: pointer;
+    margin-top: 30vh;
+    border-radius: 2vh;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+#sec3-main:hover{
+    transform: scale(0.97);
+}
+#sec3-main h4{
+font-size: 1.9vw;
+font-weight: 600;
+cursor: pointer;
+padding-bottom: 2vh;
+}
+#sec3-main i{
+font-size: 1.9vw;
+font-weight: 600;
+cursor: pointer;
+padding-bottom: 2vh;
+}
+#sec3-main1{
+    height: 85vh;
+    width: 32%;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    background-image: url(img.sec3.2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 2vh;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+#sec3-main1:hover{
+    transform: scale(0.97);
+}
+#sec3-main1 h4{
+font-size: 1.9vw;
+font-weight: 600;
+cursor: pointer;
+padding-bottom: 2vh;
+}
+#sec3-main1 i{   
+font-size: 1.9vw;
+font-weight: 600;
+cursor: pointer;
+padding-bottom: 2vh;
+}
+#sec3-main2{
+     height: 85vh;
+    width: 32%;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    background-image: url(img.sec3.3.avif);
+    background-size: cover;
+    background-position: center;
+    border-radius: 2vh;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+#sec3-main2:hover{
+    transform: scale(0.97);
+}
+#sec3-main2 h4{
+font-size: 1.9vw;
+font-weight: 600;
+cursor: pointer;
+padding-bottom: 2vh;
+}
+#sec3-main2 i{
+font-size: 1.9vw;
+font-weight: 600;
+cursor: pointer;
+padding-bottom: 2vh;
+}
+#section4{
+    width: 100%;
+    height: 16vh;
+    padding-top: 3vh;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 1vw;
+    margin-top: 10vh;
+}
+#section4 h1{
+    font-size: 3.3vw;
+    padding-left: 2%;
+}
+#section4 h2{
+    font-size: 3.3vw;
+    font-weight: 400;
+}
+#section4-1-and-5{
+    width: 100%;
+    height: 90vh;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 2.6vw;
+    margin-bottom: 15vh;
+}
+#sec5-1{
+    width: 100%;
+    height: 60vh;
+    border-radius: 2vh;
+    background-image: url(Brightening_Serum.webp);
+    background-position: center;
+    background-size: cover;
+}
+.sec5-heading{
+    font-size: 1.6vw;
+    padding-top: 3vh;
+}
+#sec5-1-2{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1vw;
+    padding-top: 3vh;
+}
+#sec5-1-2 h4{
+    font-size: 1.5vw;
+}
+#sec5-1-2 h5{
+    text-decoration: line-through;
+    font-size: 1.3vw;
+    font-weight: 400;
+}
+.cart-btn{
+    font-size: 1.3vw;
+    font-weight: 600;
+    padding-left: 6.3vw;
+    padding-right: 6.3vw;
+    padding-top: 0.5vw;
+    padding-bottom:0.5vw ;
+    border-radius: 2vh;
+    border: 1px solid;
+    border-color: transparent;
+    margin-top: 3vh;
+    background-color:rgb(206, 21, 206) ;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.cart-btn:hover{
+    transform: scale(0.95);
+    background-color: black;
+    color: white;
+}
+#sec5-11{
+    width: 100%;
+    height: 60vh;
+    border-radius: 2vh;
+    background-image: url(Night_Repair.webp);
+    background-position: center;
+    background-size: cover;
+}
+#sec5-12{
+    width: 100%;
+    height: 60vh;
+    border-radius: 2vh;
+    background-image: url(Aphrodite_Peach_Sunrise.webp);
+    background-position: center;
+    background-size: cover;
+}
+#sec5-13{
+    width: 100%;
+    height: 60vh;
+    border-radius: 2vh;
+    background-image: url(Age_Cream_Purple.webp);
+    background-position: center;
+    background-size: cover;
+}
+#section6{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15vh;
+}
+#sec6-1{
+    width: 50%;
+    height: 90vh;
+    background-image: url(Brightening_serum_3.webp);
+    background-size: cover;
+    background-position:center ;
+}
+#sec6-2{
+    width: 50%;
+    height: 90vh;
+    background-color: rgb(238, 231, 238);
+}
+#sec6-2 h1{
+    font-size: 3.2vw;
+    font-weight: 600;
+    padding-top: 2vh;
+    padding-left: 2vw;
+}
+#sec6-2 h2{
+    font-size: 2.5vw;
+      padding-top: 2vh;
+    padding-left: 2vw;
+}
+.sec6-2-h3{
+    font-size: 1.5vw;
+      padding-top: 4vh;
+    padding-left: 2vw;
+}
+#sec6-2-1{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 2vw;
+    padding-top: 4vh;
+    padding-left: 2vw;
+}
+#sec6-2-1 i{
+    font-size: 5vw;
+    font-weight: 300;
+    color: rgb(206, 21, 206);
+}
+#sec6-2-1 h3{
+    font-size: 1.7vw;
+}
+#sec6-2-1 h5{
+    font-size: 1.2vw;
+    font-weight: 400;
+}
+#sec6-2-2{
+    padding-top: 4vh;
+    padding-left: 2vw;
+    
+}
+.sec6-2-2{
+    font-size: 1.2vw;
+    border-radius: 1.2vw;
+    background-color: rgb(206, 21, 206);
+    cursor: pointer;
+    transition: 0.3s ease;
+    border: 1px solid;
+    border-color: transparent;
+    font-size: 1.3vw;
+    padding: 1vw;
+}
+.sec6-2-2:hover{
+    transform: scale(0.95);
+    background-color: black;
+    color: white;
+}
+#section7{
+    width: 100%;
+    height: 100vh;
+    margin-top: 5vhvh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20vh;
+}
+#sec7-1{
+    width: 46%;
+    height: 100vh;
+    background-image: url(sec7-main.webp);
+    background-size: cover;
+    background-position: center;
+    margin-left: vw;
+    border: 1px solid;
+    border-color: transparent;
+    border-radius: 3vh;
+    margin-left: 1vw;
+    transition: 0.3s ease;
+}
+#sec7-1:hover{
+    transform: scale(0.95);
+    cursor: pointer;
+}
+#sec7-2{
+    width: 52%;
+    height: 100vh;
+}
+#sec7-2-1{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#sec7-2-2{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#sec7-2-1-1{
+    width: 25.7vw;
+    height: 50vh;
+     border-radius: 2vh;
+    border: 1px solid;
+    border-color: transparent;
+     background-image: url(sec7.1.webp);
+    background-size: cover;
+    background-position: center;
+    transition: 0.3s ease;
+}
+#sec7-2-1-1:hover{
+    transform: scale(0.95);
+    cursor: pointer;
+}
+#sec7-2-1-2{
+    width: 25.7vw;
+    height: 50vh;
+    border-radius: 2vh;
+    border: 1px solid;
+    border-color: transparent;
+     background-image: url(sec7.2.webp);
+    background-size: cover;
+    background-position: center;
+    transition: 0.3s ease;
+}
+#sec7-2-1-2:hover{
+    transform: scale(0.95);
+    cursor: pointer;
+}
+#sec7-2-2-1{
+    width: 25.7vw;
+    height: 50vh;
+     border-radius: 2vh;
+    border: 1px solid;
+    border-color: transparent;
+     background-image: url(sec7.3.webp);
+    background-size: cover;
+    background-position: center;
+    transition: 0.3s ease;
+}
+#sec7-2-2-1:hover{
+    transform: scale(0.95);
+    cursor: pointer;
+}
+#sec7-2-2-2{
+    width: 25.7vw;
+    height: 50vh;
+     border-radius: 2vh;
+    border: 1px solid;
+    border-color: transparent;
+     background-image: url(sec7.4.webp);
+    background-size: cover;
+    background-position: center;
+    transition: 0.3s ease;
+    
+}
+#sec7-2-2-2:hover{
+    transform: scale(0.95);
+    cursor: pointer;
+}
+#section8{
+    width: 96.7vw;
+    height:50vh;
+    margin: 1.2vw;
+    background-color: rgb(206, 21, 206);
+    border: 1px solid;
+    border-color: transparent;
+    border-radius: 3vh;
+    margin-bottom: 30vh;
+} 
+#sec8-1{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+#sec8-1 h1{
+    font-size: 4vw;
+}
+#sec8-1 h2{
+    font-size: 4vw;
+    font-weight: 400;
+}
+#sec8-2{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+#sec8-2 p{
+    font-size: 1.6vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5vh;
+}
+#sec8-2 button{
+    font-size: 1.7vw;
+    border: 1px solid;
+    border-color: transparent;
+    border-radius: 3vh;
+    padding: 2vh;
+    padding-bottom: 2.5vh;
+    padding-top: 2.5vh;
+    background-color: rgb(0, 0, 0);
+    margin-top: 1vh;
+    transition: 0.3s ease;
+    color: white;
+}
+#sec8-2 button:hover{
+    transform: scale(0.95);
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border-bottom: 1px solid;
+    margin-bottom: 1px;
+}
+footer h4{
+    font-size: 1.2vw;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+#list-footer{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 2vw;
+}
+#list-footer h4:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
