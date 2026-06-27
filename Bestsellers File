@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BESTSELLERS</title>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+}        
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#ship{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(206, 21, 206);
+}
+#ship h4{
+    font-size: 1.2vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+nav{
+    margin-top: 1px;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+#nav1{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 0.2vw;
+}
+#nav1 h1{
+    font-size: 3vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 400;
+    font-style: italic;
+    color: rgb(186, 21, 186);
+    padding-left: 3vh;
+    cursor: pointer;
+
+}
+#nav1 h2{
+    font-size: 1.6vw;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+#nav2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2vw;
+    font-size: 1.2vw;
+    font-weight: 300;
+    margin-right: 3vw;
+    padding-top: 0.3vh;
+    cursor: pointer;
+    transition: o.3s ease;
+}
+#nav2 h3{
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+#nav2 h3:hover{
+    transform: scale(0.95);
+    text-decoration: underline;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+#section1{
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(224, 239, 239);
+    background-image: url(BESTSELLERS.POSTER.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#section4{
+    width: 100%;
+    height: 16vh;
+    padding-top: 3vh;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 1vw;
+    margin-top: 10vh;
+}
+#section4 h1{
+    font-size: 3.3vw;
+    padding-left: 2%;
+}
+#section4 h2{
+    font-size: 3.3vw;
+    font-weight: 400;
+}
+#section4-1-and-5{
+    height: 90vh;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 2.6vw;
+    margin-bottom: 15vh;
+}
+#sec5-1{
+    width: 100%;
+    height: 60vh;
+    border-radius: 2vh;
+    background-image: url(Brightening_Serum.webp);
+    background-position: center;
+    background-size: cover;
+}
+.sec5-heading{
+    font-size: 1.6vw;
+    padding-top: 3vh;
+}
+#sec5-1-2{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1vw;
+    padding-top: 3vh;
+}
+#sec5-1-2 h4{
+    font-size: 1.5vw;
+}
+#sec5-1-2 h5{
+    text-decoration: line-through;
+    font-size: 1.3vw;
+    font-weight: 400;
+}
+.cart-btn{
+    font-size: 1.3vw;
+    font-weight: 600;
+    padding-left: 6.3vw;
+    padding-right: 6.3vw;
+    padding-top: 0.5vw;
+    padding-bottom:0.5vw ;
+    border-radius: 2vh;
+    border: 1px solid;
+    border-color: transparent;
+    margin-top: 3vh;
+    background-color:rgb(206, 21, 206) ;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.cart-btn:hover{
+    transform: scale(0.95);
+    background-color: black;
+    color: white;
+}
+#sec5-11{
+    width: 100%;
+    height: 60vh;
+    border-radius: 2vh;
+    background-image: url(Night_Repair.webp);
+    background-position: center;
+    background-size: cover;
+}
+#sec5-12{
+    width: 100%;
+    height: 60vh;
+    border-radius: 2vh;
+    background-image: url(Aphrodite_Peach_Sunrise.webp);
+    background-position: center;
+    background-size: cover;
+}
+#sec5-13{
+    width: 100%;
+    height: 60vh;
+    border-radius: 2vh;
+    background-image: url(Age_Cream_Purple.webp);
+    background-position: center;
+    background-size: cover;
+}
+footer{
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border-bottom: 1px solid;
+    margin-bottom: 1px;
+}
+footer h4{
+    font-size: 1.2vw;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+#list-footer{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 2vw;
+}
+#list-footer h4:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+    </style>
+</head>
+<body>
+         <div id="ship">
+            <h4>Free Shipping on Orders Over PKR 4000 </h4>
+    </div>
+    <nav>
+        <div id="nav1">
+            <h1>AK</h1>
+            <h2>COSMETICS</h2>
+        </div>
+         <div id="nav2">
+            <h3 class="HOME">HOME</h3>
+            <h3 class="BESTSELLERS">BESTSELLERS</h3>
+            <h3 class="BUNDLES">PRODUCTS</h3>
+            <h3 class="ABOUT">ABOUT US</h3>
+        </div>
+        
+    </nav>
+    <div id="main">
+        <div id="section1">           
+        </div>  
+         <div id="section4-1-and-5">
+            <div id="section5">
+            <div id="sec5-1">
+
+         </div>
+           <h4 class="sec5-heading">Day & Night Combo Bundle</h4>
+             <div id="sec5-1-2">
+                <h4>Rs.2,999</h4>
+                <h5>Rs.3,598</h5>
+         </div>
+            <button class="cart-btn">ADD TO CART</button>
+            </div>
+             <div id="section5">
+            <div id="sec5-11">
+
+            </div>
+           <h4 class="sec5-heading">Night Face Serum-30 ML</h4>
+             <div id="sec5-1-2">
+                <h4>Rs.1,799</h4>
+                <h5>Rs.3,598</h5>
+            </div>
+            <button class="cart-btn">ADD TO CART</button>
+            </div>
+             <div id="section5">
+            <div id="sec5-12">
+
+            </div>
+           <h4 class="sec5-heading">Peach Sunrise Body Butter</h4>
+             <div id="sec5-1-2">
+                <h4>Rs.1,399</h4>
+                <h5>Rs.2,598</h5>
+            </div>
+            <button class="cart-btn">ADD TO CART</button>
+            </div>
+             <div id="section5">
+            <div id="sec5-13">
+
+            </div>
+           <h4 class="sec5-heading">Age Miracle Cream-30ML</h4>
+             <div id="sec5-1-2">
+                <h4>Rs.2,999</h4>
+                <h5>Rs.3,498</h5>
+            </div>
+            <button class="cart-btn">ADD TO CART</button>
+            </div>
+        
+        </div>  
+     
+         <footer>
+        <h4>Copyright © 2026 AK COSMETICS all rights reserved.</h4>
+        <div id="list-footer">
+            <h4 class="fot1">BESTSELLERS</h4>
+            <h4 class="fot2">PRODUCTS</h4>
+            <h4 class="fot4">ABOUT US</h4>
+        </div>
+    </footer>
+        
+    </div>
+
+        
+<script>
+    document.querySelector(".BUNDLES").addEventListener("click",function(){
+    window.location.href = "PRODUCTS.html";
+});
+document.querySelector(".BESTSELLERS").addEventListener("click",function(){
+    window.location.href = "BESTSELLERS.html";
+});
+document.querySelector(".HOME").addEventListener("click",function(){
+    window.location.href = "2nd.html";
+});
+document.querySelector(".ABOUT").addEventListener("click",function(){
+    window.location.href = "ABOUT.html";
+});
+document.querySelector(".fot2").addEventListener("click",function(){
+    window.location.href = "PRODUCTS.html";
+});
+document.querySelector(".fot1").addEventListener("click",function(){
+    window.location.href = "BESTSELLERS.html";
+});
+document.querySelector(".fot3").addEventListener("click",function(){
+    window.location.href = "CONTACT.html";
+});
+document.querySelector(".fot4").addEventListener("click",function(){
+    window.location.href = "ABOUT.html";
+});
+</script>
+</body>
+</html>
